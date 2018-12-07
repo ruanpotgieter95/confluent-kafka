@@ -6,6 +6,7 @@ c = Consumer({
     'security.protocol': 'SASL_PLAINTEXT',
     'sasl.mechanism': 'GSSAPI',
     'sasl.kerberos.service.name': 'kafka',
+    'sasl.kerberos.keytab': '<KEYTABNAME>.keytab',
     'group.id': 'mygroup'
 })
  
