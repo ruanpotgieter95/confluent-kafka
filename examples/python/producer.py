@@ -12,6 +12,7 @@ p = Producer({
     'bootstrap.servers': '<HOSTNAME>:6667',
     'security.protocol': 'SASL_PLAINTEXT',
     'sasl.mechanism': 'GSSAPI',
+    'sasl.kerberos.keytab': '<KEYTABNAME>.keytab',
     'sasl.kerberos.service.name': 'kafka',
 })
  
